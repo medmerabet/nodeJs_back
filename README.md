@@ -4,7 +4,7 @@
 127.0.0.1:3000
 ```
 
-## Launch docker
+## Lancer l'application
 ```
 docker-compose up
 ```
