@@ -15,10 +15,12 @@ let moduleSchema = new Schema({
   promo_id: {
     type: String
   },
+  //le control de la donnée sur le format de la  date sera controler au niveau du FRONT
   dateDebut: {
     type: String,
     required: true
   },
+  //le control de la donnée sur le format de la date sera controler au niveau du front 
   dateFin: {
     type: String,
     required: true

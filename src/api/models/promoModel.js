@@ -6,6 +6,7 @@ let promoSchema = new Schema({
     type: String,
     required: true
   },
+  //le controle du format de la date sera verifier dans le front c'est pour ça que je le met en string 
   anneePromo: {
     type: String,
     required: true
