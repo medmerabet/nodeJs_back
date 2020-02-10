@@ -9,8 +9,8 @@ const port = 3000;
 
 // Connexion BDD
 // protocole://service/nom_bdd
-//mongoose.connect('mongodb://mongo/apinodeipssi');
-mongoose.connect('mongodb://mongo/' + process.env.DB_NAME);
+mongoose.connect('mongodb://mongo/apinodeipssi');
+//mongoose.connect('mongodb://mongo/' + process.env.DB_NAME);
 app.use(bodyParser.urlencoded( {extended: true} ));
 app.use(bodyParser.json());
 
